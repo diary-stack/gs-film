@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+body {
+    background-color: rgb(210, 210, 210);
+    color: rgb(23, 23, 23);
+}
+
+.title-bar {
+    position: sticky;
+    top: 0;
+    background-color: rgb(139, 139, 139);
+    margin-bottom: 15px;
+}
+
+.dark {
+    background-color: rgb(23, 23, 23);
+    color: rgb(210, 210, 210);
+}
+
+.dark .title-bar {
+    background-color: rgb(32, 32, 32);
+    margin-bottom: 15px;
+}
+
+.dark .movie-link {
+    background-color: rgb(53, 53, 53);
+}
+
+.movie-link {
+    display: block;
+    padding: 10px;
+    background-color: rgb(144, 144, 144);
+    margin-top: 20px;
+}
+
+.movie-link .bg-img {
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.movie-link h6 {
+    padding-top: 10px;
+    height: 50px;
+    text-align: center;
+}
+
+.res li {
+    display: block;
+    overflow: hidden;
+    text-overflow: clip;
+}
+
+.search-res i {
+    transform: rotate(40deg);
+}
